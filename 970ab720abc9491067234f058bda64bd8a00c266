@@ -16,6 +16,23 @@
       "message": "need to review battery-charger label, current/voltage limits, and otg vbus rename",
       "revId": "970ab720abc9491067234f058bda64bd8a00c266",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "904d31eb_46dcea36",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2023-10-29T15:08:40Z",
+      "side": 1,
+      "message": "also uh needs kernel changes merged",
+      "revId": "970ab720abc9491067234f058bda64bd8a00c266",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
