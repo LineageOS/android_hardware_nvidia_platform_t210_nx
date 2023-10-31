@@ -16,6 +16,24 @@
       "message": "this is def wrong, need to fix",
       "revId": "8bf9a8c49a547d1bf1404cf0143eb79f812587d5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6fa5bda_8f6312d2",
+        "filename": "kernel-dts/nx-platforms/tegra210b01-vali-power-tree.dtsi",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2023-10-31T00:27:45Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "701ca9d0_8d55aff5",
+      "revId": "8bf9a8c49a547d1bf1404cf0143eb79f812587d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
