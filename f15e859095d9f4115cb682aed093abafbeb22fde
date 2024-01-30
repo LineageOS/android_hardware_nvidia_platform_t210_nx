@@ -16,6 +16,23 @@
       "message": "topic: nx-dynamic pls",
       "revId": "f15e859095d9f4115cb682aed093abafbeb22fde",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d72babc9_5af0bbb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-01-30T05:47:48Z",
+      "side": 1,
+      "message": "nx-dynamic-partitions I mean",
+      "revId": "f15e859095d9f4115cb682aed093abafbeb22fde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
