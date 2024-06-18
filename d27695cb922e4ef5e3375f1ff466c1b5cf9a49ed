@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f104004_829c53a7",
+        "filename": "kernel-dts/nx-platforms/tegra210-odin-common.dtsi",
+        "patchSetId": 1
+      },
+      "lineNbr": 1113,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2024-06-18T16:57:14Z",
+      "side": 1,
+      "message": "Erm. This is unrelated to what\u0027s described in the commit message.",
+      "revId": "d27695cb922e4ef5e3375f1ff466c1b5cf9a49ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78a82aaa_c1861455",
+        "filename": "kernel-dts/nx-platforms/tegra210b01-nx-common.dtsi",
+        "patchSetId": 1
+      },
+      "lineNbr": 1336,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2024-06-18T16:57:14Z",
+      "side": 1,
+      "message": "Also unrelated.",
+      "revId": "d27695cb922e4ef5e3375f1ff466c1b5cf9a49ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
