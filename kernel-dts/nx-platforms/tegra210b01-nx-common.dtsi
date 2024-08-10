@@ -556,10 +556,8 @@
 		};
 	};
 
-    tegra_wdt: watchdog@60005100 {
-		dt-override-status-odm-data = <0x00010000 0x00010000>;
-		timeout-sec = <0>;
-		status = "okay";
+	watchdog@60005100 {
+		status = "disabled";
 	};
 
 
@@ -1339,6 +1337,10 @@
 		iram-carveout {
 			status = "disabled";
 		};
+	};
+
+	tegra-carveouts {
+		/delete-property/ memory-region;
 	};
 
 	nvpmodel {
