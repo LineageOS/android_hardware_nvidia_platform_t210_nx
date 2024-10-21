@@ -1331,12 +1331,8 @@
 	};
 
 	reserved-memory {
-		vpr-carveout {
-			status = "disabled";
-		};
-		iram-carveout {
-			status = "disabled";
-		};
+		/delete-node/ iram-carveout;
+		/delete-node/ vpr-carveout;
 	};
 
 	tegra-carveouts {
