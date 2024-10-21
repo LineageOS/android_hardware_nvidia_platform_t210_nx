@@ -1339,6 +1339,10 @@
 		};
 	};
 
+	tegra-carveouts {
+		/delete-property/ memory-region;
+	};
+
 	nvpmodel {
 		/* clocks = <&bpmp_car 0>; */
 		/* clock-names = "emc"; */
