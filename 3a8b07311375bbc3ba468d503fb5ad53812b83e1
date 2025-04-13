@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7cfd3c3_c97e164c",
+        "filename": "kernel-dts/nx-platforms/tegra210b01-nx-common.dtsi",
+        "patchSetId": 5
+      },
+      "lineNbr": 459,
+      "author": {
+        "id": 35144
+      },
+      "writtenOn": "2025-04-13T18:20:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0383f03a_2d56cfaa",
+      "revId": "3a8b07311375bbc3ba468d503fb5ad53812b83e1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f74d8754_447b22f8",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-04-13T17:13:47Z",
       "side": 1,
       "message": "whitespace",
+      "revId": "3a8b07311375bbc3ba468d503fb5ad53812b83e1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4db9768b_35a2ca04",
+        "filename": "kernel-dts/nx-platforms/tegra210b01-nx-common.dtsi",
+        "patchSetId": 5
+      },
+      "lineNbr": 498,
+      "author": {
+        "id": 35144
+      },
+      "writtenOn": "2025-04-13T18:20:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f74d8754_447b22f8",
       "revId": "3a8b07311375bbc3ba468d503fb5ad53812b83e1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
