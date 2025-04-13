@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0383f03a_2d56cfaa",
+        "filename": "kernel-dts/nx-platforms/tegra210b01-nx-common.dtsi",
+        "patchSetId": 5
+      },
+      "lineNbr": 459,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2025-04-13T17:13:47Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "3a8b07311375bbc3ba468d503fb5ad53812b83e1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f74d8754_447b22f8",
+        "filename": "kernel-dts/nx-platforms/tegra210b01-nx-common.dtsi",
+        "patchSetId": 5
+      },
+      "lineNbr": 498,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2025-04-13T17:13:47Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "3a8b07311375bbc3ba468d503fb5ad53812b83e1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
