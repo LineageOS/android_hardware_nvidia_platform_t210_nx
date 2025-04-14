@@ -34,12 +34,7 @@
 				TEGRA_GPIO(K, 2) 0 /* Bluetooth Gpio4 */
 
 				TEGRA_GPIO(E, 7) 0 /* Sio IRQ */
-
 				TEGRA_GPIO(J, 4) 0 /* NFC IRQ */
-				TEGRA_GPIO(C, 5) 0 /* SPI4 SCLK (Used by SIO) */
-				TEGRA_GPIO(C, 6) 0 /* SPI4 CS0  (Used by SIO) */
-				TEGRA_GPIO(C, 7) 0 /* SPI4 MOSI (Used by SIO) */
-				TEGRA_GPIO(D, 0) 0 /* SPI4 MISO (Used by SIO) */
 
 				TEGRA_GPIO(E, 0) 0 /* Debug 0 */
 				TEGRA_GPIO(E, 1) 0 /* Debug 1 */
@@ -48,6 +43,19 @@
 				>;
 			line-name = "boot-default-input";
 		};
+
+		boot-sio-imu-input {
+			/* remove gpio-hog to disable */
+			gpio-hog;
+			input;
+
+			TEGRA_GPIO(C, 5) 0 /* SPI4 SCLK (Used by SIO) */
+			TEGRA_GPIO(C, 6) 0 /* SPI4 CS0  (Used by SIO) */
+			TEGRA_GPIO(C, 7) 0 /* SPI4 MOSI (Used by SIO) */
+			TEGRA_GPIO(D, 0) 0 /* SPI4 MISO (Used by SIO) */
+
+			line-name = "boot-sio-imu-input";
+		}
 
 		boot-default-output-low {
 			gpio-hog;
