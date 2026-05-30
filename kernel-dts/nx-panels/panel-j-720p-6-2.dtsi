@@ -123,20 +123,72 @@
 					nvidia,out-rotation = <0>; // WAR: handled by surfaceflinger
 				};
 				display-timings {
-					720x1280-24 {
-						clock-frequency = <78000000>; /* (720+136+144) x (1280+10+10) x 60 */
+					720x1280-60 {
+						clock-frequency = <78000000>;
 						hactive = <720>;
 						vactive = <1280>;
-
 						hfront-porch = <136>;
 						hback-porch = <72>;
 						hsync-len = <72>;
-
 						vfront-porch = <10>;
 						vback-porch = <9>;
 						vsync-len = <1>;
+						nvidia,h-ref-to-sync = <0>;
+						nvidia,v-ref-to-sync = <1>;
+					};
 
-						/* For DSI these are automatically calculated */
+					720x1280-55 {
+						clock-frequency = <71500000>;
+						hactive = <720>;
+						vactive = <1280>;
+						hfront-porch = <136>;
+						hback-porch = <72>;
+						hsync-len = <72>;
+						vfront-porch = <10>;
+						vback-porch = <9>;
+						vsync-len = <1>;
+						nvidia,h-ref-to-sync = <0>;
+						nvidia,v-ref-to-sync = <1>;
+					};
+
+					720x1280-50 {
+						clock-frequency = <65000000>;
+						hactive = <720>;
+						vactive = <1280>;
+						hfront-porch = <136>;
+						hback-porch = <72>;
+						hsync-len = <72>;
+						vfront-porch = <10>;
+						vback-porch = <9>;
+						vsync-len = <1>;
+						nvidia,h-ref-to-sync = <0>;
+						nvidia,v-ref-to-sync = <1>;
+					};
+
+					720x1280-45 {
+						clock-frequency = <58500000>;
+						hactive = <720>;
+						vactive = <1280>;
+						hfront-porch = <136>;
+						hback-porch = <72>;
+						hsync-len = <72>;
+						vfront-porch = <10>;
+						vback-porch = <9>;
+						vsync-len = <1>;
+						nvidia,h-ref-to-sync = <0>;
+						nvidia,v-ref-to-sync = <1>;
+					};
+
+					720x1280-40 {
+						clock-frequency = <52000000>;
+						hactive = <720>;
+						vactive = <1280>;
+						hfront-porch = <136>;
+						hback-porch = <72>;
+						hsync-len = <72>;
+						vfront-porch = <10>;
+						vback-porch = <9>;
+						vsync-len = <1>;
 						nvidia,h-ref-to-sync = <0>;
 						nvidia,v-ref-to-sync = <1>;
 					};
