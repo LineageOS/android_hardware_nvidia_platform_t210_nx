@@ -21,11 +21,7 @@
 #include "../nx-panels/panel-s-720p-5-5.dtsi"
 #include "../nx-panels/panel-s-720p-7-0.dtsi"
 #include "../nx-panels/panel-rr-1080p-5-5.dtsi"
-#include "../nx-panels/panel-rr-1080p-7-0.dtsi"
 #include "../nx-panels/panel-rr-720p-5-5.dtsi"
-#include "../nx-panels/panel-rr-720p-7-0.dtsi"
-#include "../nx-panels/panel-rr-ips-720p-7-0.dtsi"
-#include "../nx-panels/panel-rr-ips-1080p-7-0.dtsi"
 
 / {
 	backlight {
@@ -120,18 +116,6 @@
 				nvidia,dsi-dpd-pads = <DSIC_DPD_EN DSID_DPD_EN>;
 			};
 			panel-rr-1080p-5-5 {
-				nvidia,dsi-dpd-pads = <DSIC_DPD_EN DSID_DPD_EN>;
-			};
-			panel-rr-720p-7-0 {
-				nvidia,dsi-dpd-pads = <DSIC_DPD_EN DSID_DPD_EN>;
-			};
-			panel-rr-1080p-7-0 {
-				nvidia,dsi-dpd-pads = <DSIC_DPD_EN DSID_DPD_EN>;
-			};
-			panel-rr-ips-720p-7-0 {
-				nvidia,dsi-dpd-pads = <DSIC_DPD_EN DSID_DPD_EN>;
-			};
-			panel-rr-ips-1080p-7-0 {
 				nvidia,dsi-dpd-pads = <DSIC_DPD_EN DSID_DPD_EN>;
 			};
 		};
